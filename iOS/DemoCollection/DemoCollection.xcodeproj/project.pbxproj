@@ -18,6 +18,7 @@
 		EA08465D225E18CB00F759B2 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08465C225E18CB00F759B2 /* BinaryTreeNode.m */; };
 		EA084660225E1AAA00F759B2 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08465F225E1AAA00F759B2 /* BinaryTree.m */; };
 		EAD67314225EE62A0088A66B /* TreeNodeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD67313225EE62A0088A66B /* TreeNodeProperty.m */; };
+		EAD67318225EFC530088A66B /* SortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD67317225EFC530088A66B /* SortAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		EA08465F225E1AAA00F759B2 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
 		EAD67312225EE62A0088A66B /* TreeNodeProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNodeProperty.h; sourceTree = "<group>"; };
 		EAD67313225EE62A0088A66B /* TreeNodeProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNodeProperty.m; sourceTree = "<group>"; };
+		EAD67316225EFC530088A66B /* SortAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SortAlgorithm.h; sourceTree = "<group>"; };
+		EAD67317225EFC530088A66B /* SortAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortAlgorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,7 @@
 		EA084618225B4EE000F759B2 /* DemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				EAD67315225EFC3A0088A66B /* SortAlgorithm */,
 				EA08465A225E188900F759B2 /* BinaryTree */,
 				EA084619225B4EE000F759B2 /* AppDelegate.h */,
 				EA08461A225B4EE000F759B2 /* AppDelegate.m */,
@@ -154,6 +158,16 @@
 			);
 			name = BinaryTree;
 			path = Classes/BinaryTree;
+			sourceTree = "<group>";
+		};
+		EAD67315225EFC3A0088A66B /* SortAlgorithm */ = {
+			isa = PBXGroup;
+			children = (
+				EAD67316225EFC530088A66B /* SortAlgorithm.h */,
+				EAD67317225EFC530088A66B /* SortAlgorithm.m */,
+			);
+			name = SortAlgorithm;
+			path = Classes/SortAlgorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +303,7 @@
 				EA084660225E1AAA00F759B2 /* BinaryTree.m in Sources */,
 				EA08461E225B4EE000F759B2 /* ViewController.m in Sources */,
 				EAD67314225EE62A0088A66B /* TreeNodeProperty.m in Sources */,
+				EAD67318225EFC530088A66B /* SortAlgorithm.m in Sources */,
 				EA084629225B4EE200F759B2 /* main.m in Sources */,
 				EA08465D225E18CB00F759B2 /* BinaryTreeNode.m in Sources */,
 				EA08461B225B4EE000F759B2 /* AppDelegate.m in Sources */,
