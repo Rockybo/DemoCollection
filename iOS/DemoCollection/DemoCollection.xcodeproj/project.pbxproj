@@ -15,6 +15,9 @@
 		EA084629225B4EE200F759B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA084628225B4EE200F759B2 /* main.m */; };
 		EA084633225B4EE200F759B2 /* DemoCollectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA084632225B4EE200F759B2 /* DemoCollectionTests.m */; };
 		EA08463E225B4EE200F759B2 /* DemoCollectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08463D225B4EE200F759B2 /* DemoCollectionUITests.m */; };
+		EA08465D225E18CB00F759B2 /* BinaryTreeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08465C225E18CB00F759B2 /* BinaryTreeNode.m */; };
+		EA084660225E1AAA00F759B2 /* BinaryTree.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08465F225E1AAA00F759B2 /* BinaryTree.m */; };
+		EAD67314225EE62A0088A66B /* TreeNodeProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD67313225EE62A0088A66B /* TreeNodeProperty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		EA084639225B4EE200F759B2 /* DemoCollectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoCollectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA08463D225B4EE200F759B2 /* DemoCollectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoCollectionUITests.m; sourceTree = "<group>"; };
 		EA08463F225B4EE200F759B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA08465B225E18CB00F759B2 /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		EA08465C225E18CB00F759B2 /* BinaryTreeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTreeNode.m; sourceTree = "<group>"; };
+		EA08465E225E1AAA00F759B2 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		EA08465F225E1AAA00F759B2 /* BinaryTree.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BinaryTree.m; sourceTree = "<group>"; };
+		EAD67312225EE62A0088A66B /* TreeNodeProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TreeNodeProperty.h; sourceTree = "<group>"; };
+		EAD67313225EE62A0088A66B /* TreeNodeProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TreeNodeProperty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		EA084618225B4EE000F759B2 /* DemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				EA08465A225E188900F759B2 /* BinaryTree */,
 				EA084619225B4EE000F759B2 /* AppDelegate.h */,
 				EA08461A225B4EE000F759B2 /* AppDelegate.m */,
 				EA08461C225B4EE000F759B2 /* ViewController.h */,
@@ -130,6 +140,20 @@
 				EA08463F225B4EE200F759B2 /* Info.plist */,
 			);
 			path = DemoCollectionUITests;
+			sourceTree = "<group>";
+		};
+		EA08465A225E188900F759B2 /* BinaryTree */ = {
+			isa = PBXGroup;
+			children = (
+				EA08465B225E18CB00F759B2 /* BinaryTreeNode.h */,
+				EA08465C225E18CB00F759B2 /* BinaryTreeNode.m */,
+				EA08465E225E1AAA00F759B2 /* BinaryTree.h */,
+				EA08465F225E1AAA00F759B2 /* BinaryTree.m */,
+				EAD67312225EE62A0088A66B /* TreeNodeProperty.h */,
+				EAD67313225EE62A0088A66B /* TreeNodeProperty.m */,
+			);
+			name = BinaryTree;
+			path = Classes/BinaryTree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +286,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA084660225E1AAA00F759B2 /* BinaryTree.m in Sources */,
 				EA08461E225B4EE000F759B2 /* ViewController.m in Sources */,
+				EAD67314225EE62A0088A66B /* TreeNodeProperty.m in Sources */,
 				EA084629225B4EE200F759B2 /* main.m in Sources */,
+				EA08465D225E18CB00F759B2 /* BinaryTreeNode.m in Sources */,
 				EA08461B225B4EE000F759B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

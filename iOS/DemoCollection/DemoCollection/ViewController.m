@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "BinaryTree.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+//    NSMutableArray *orderArray = [NSMutableArray array];
+//    [BinaryTree preOrderTraverseTree:root handler:^(BinaryTreeNode *treeNode) {
+//        [orderArray addObject:@(treeNode.value)];
+//    }];
+//    NSLog(@"先序遍历结果：%@", [orderArray componentsJoinedByString:@","]);
 }
 
 
