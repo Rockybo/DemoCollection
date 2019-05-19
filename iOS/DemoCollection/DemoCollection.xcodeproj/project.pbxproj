@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38E0F1962291366700EC67A8 /* CryptographyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E0F1952291366700EC67A8 /* CryptographyDemo.m */; };
 		EA08461B225B4EE000F759B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08461A225B4EE000F759B2 /* AppDelegate.m */; };
 		EA08461E225B4EE000F759B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA08461D225B4EE000F759B2 /* ViewController.m */; };
 		EA084621225B4EE000F759B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA08461F225B4EE000F759B2 /* Main.storyboard */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		38E0F1942291366700EC67A8 /* CryptographyDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CryptographyDemo.h; sourceTree = "<group>"; };
+		38E0F1952291366700EC67A8 /* CryptographyDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CryptographyDemo.m; sourceTree = "<group>"; };
 		EA084616225B4EE000F759B2 /* DemoCollection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoCollection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA084619225B4EE000F759B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EA08461A225B4EE000F759B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +93,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		38E0F1932291365900EC67A8 /* Cryptography */ = {
+			isa = PBXGroup;
+			children = (
+				38E0F1942291366700EC67A8 /* CryptographyDemo.h */,
+				38E0F1952291366700EC67A8 /* CryptographyDemo.m */,
+			);
+			name = Cryptography;
+			path = Classes/Cryptography;
+			sourceTree = "<group>";
+		};
 		EA08460D225B4EE000F759B2 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 		EA084618225B4EE000F759B2 /* DemoCollection */ = {
 			isa = PBXGroup;
 			children = (
+				38E0F1932291365900EC67A8 /* Cryptography */,
 				EAD67315225EFC3A0088A66B /* SortAlgorithm */,
 				EA08465A225E188900F759B2 /* BinaryTree */,
 				EA084619225B4EE000F759B2 /* AppDelegate.h */,
@@ -306,6 +320,7 @@
 				EAD67318225EFC530088A66B /* SortAlgorithm.m in Sources */,
 				EA084629225B4EE200F759B2 /* main.m in Sources */,
 				EA08465D225E18CB00F759B2 /* BinaryTreeNode.m in Sources */,
+				38E0F1962291366700EC67A8 /* CryptographyDemo.m in Sources */,
 				EA08461B225B4EE000F759B2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

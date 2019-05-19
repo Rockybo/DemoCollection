@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "BinaryTree.h"
+#import "CryptographyDemo.h"
 @interface ViewController ()
 
 @end
@@ -16,6 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    CryptographyDemo *demo = [[CryptographyDemo alloc] init];
+    [demo test:@"abc"];
     // Do any additional setup after loading the view, typically from a nib.
 //    NSMutableArray *orderArray = [NSMutableArray array];
 //    [BinaryTree preOrderTraverseTree:root handler:^(BinaryTreeNode *treeNode) {
