@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		EACD4CC727DC624100D82478 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CC627DC624100D82478 /* main.cpp */; };
+		EACD4CCF27DC748000D82478 /* unordered_map_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CCD27DC748000D82478 /* unordered_map_demo.cpp */; };
+		EACD4CD227DCC71300D82478 /* ListNode_delete_last_n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		EACD4CC327DC624100D82478 /* C++学习 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++学习"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACD4CC627DC624100D82478 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EACD4CCD27DC748000D82478 /* unordered_map_demo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = unordered_map_demo.cpp; sourceTree = "<group>"; };
+		EACD4CCE27DC748000D82478 /* unordered_map_demo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unordered_map_demo.hpp; sourceTree = "<group>"; };
+		EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode_delete_last_n.cpp; sourceTree = "<group>"; };
+		EACD4CD127DCC71300D82478 /* ListNode_delete_last_n.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode_delete_last_n.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				EACD4CC627DC624100D82478 /* main.cpp */,
+				EACD4CCD27DC748000D82478 /* unordered_map_demo.cpp */,
+				EACD4CCE27DC748000D82478 /* unordered_map_demo.hpp */,
+				EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */,
+				EACD4CD127DCC71300D82478 /* ListNode_delete_last_n.hpp */,
 			);
 			path = "C++学习";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EACD4CD227DCC71300D82478 /* ListNode_delete_last_n.cpp in Sources */,
+				EACD4CCF27DC748000D82478 /* unordered_map_demo.cpp in Sources */,
 				EACD4CC727DC624100D82478 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
