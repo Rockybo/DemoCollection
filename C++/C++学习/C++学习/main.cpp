@@ -13,20 +13,31 @@ using namespace std;
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+//    std::cout << "Hello, World!\n";
+//
+//    examples1();
+//
+//    unordered_map<int, int> mymap{
+//        {1, 2}
+//    };
+//
+//    mymap[1] = 4;
+//
+//    for (auto it = mymap.begin(); it != mymap.end(); ++it) {
+//        cout << it->first << it -> second << endl;
+//    }
+//    test();
+    LFUCache *lfu = new LFUCache(2);
+    lfu->put(1, 1);   // cache=[1,_], cnt(1)=1
+    lfu->put(2, 2);
     
-    examples1();
+    lfu->get(1); // 1
     
-    unordered_map<int, int> mymap{
-        {1, 2}
-    };
+    lfu->put(3, 3);
     
-    mymap[1] = 4;
     
-    for (auto it = mymap.begin(); it != mymap.end(); ++it) {
-        cout << it->first << it -> second << endl;
-    }
-    test();
+    lfu->get(2); // -1
+
     
     return 0;
 }

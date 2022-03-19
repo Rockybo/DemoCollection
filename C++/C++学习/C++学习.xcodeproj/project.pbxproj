@@ -10,6 +10,7 @@
 		EACD4CC727DC624100D82478 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CC627DC624100D82478 /* main.cpp */; };
 		EACD4CCF27DC748000D82478 /* unordered_map_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CCD27DC748000D82478 /* unordered_map_demo.cpp */; };
 		EACD4CD227DCC71300D82478 /* ListNode_delete_last_n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */; };
+		EAF9186A27E5BB94003A4372 /* LFUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAF9186927E5BB94003A4372 /* LFUCache.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		EACD4CCE27DC748000D82478 /* unordered_map_demo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = unordered_map_demo.hpp; sourceTree = "<group>"; };
 		EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ListNode_delete_last_n.cpp; sourceTree = "<group>"; };
 		EACD4CD127DCC71300D82478 /* ListNode_delete_last_n.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode_delete_last_n.hpp; sourceTree = "<group>"; };
+		EAF9186927E5BB94003A4372 /* LFUCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LFUCache.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				EACD4CC627DC624100D82478 /* main.cpp */,
+				EAF9186927E5BB94003A4372 /* LFUCache.cpp */,
 				EACD4CCD27DC748000D82478 /* unordered_map_demo.cpp */,
 				EACD4CCE27DC748000D82478 /* unordered_map_demo.hpp */,
 				EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */,
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF9186A27E5BB94003A4372 /* LFUCache.cpp in Sources */,
 				EACD4CD227DCC71300D82478 /* ListNode_delete_last_n.cpp in Sources */,
 				EACD4CCF27DC748000D82478 /* unordered_map_demo.cpp in Sources */,
 				EACD4CC727DC624100D82478 /* main.cpp in Sources */,
