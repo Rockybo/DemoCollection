@@ -9,6 +9,8 @@
 #include <unordered_map>
 #include "unordered_map_demo.hpp"
 #include "ListNode_delete_last_n.hpp"
+#include "LRUCache.cpp"
+
 using namespace std;
 
 int main(int argc, const char * argv[]) {
@@ -27,17 +29,6 @@ int main(int argc, const char * argv[]) {
 //        cout << it->first << it -> second << endl;
 //    }
 //    test();
-    LFUCache *lfu = new LFUCache(2);
-    lfu->put(1, 1);   // cache=[1,_], cnt(1)=1
-    lfu->put(2, 2);
-    
-    lfu->get(1); // 1
-    
-    lfu->put(3, 3);
-    
-    
-    lfu->get(2); // -1
-
     
     return 0;
 }

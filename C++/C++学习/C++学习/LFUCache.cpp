@@ -79,3 +79,16 @@ public:
         }
     }
 };
+/**
+ 
+ LFUCache *lfu = new LFUCache(2);
+ lfu->put(1, 1);   // cache=[1,_], cnt(1)=1
+ lfu->put(2, 2);
+ 
+ lfu->get(1); // 1
+ 
+ lfu->put(3, 3);
+
+ lfu->get(2); // -1
+
+ */
