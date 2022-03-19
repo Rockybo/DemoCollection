@@ -12,6 +12,7 @@
 		EACD4CD227DCC71300D82478 /* ListNode_delete_last_n.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */; };
 		EAF9186A27E5BB94003A4372 /* LFUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAF9186927E5BB94003A4372 /* LFUCache.cpp */; };
 		EAF9186C27E5BC13003A4372 /* LRUCache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAF9186B27E5BC13003A4372 /* LRUCache.cpp */; };
+		EAF9186E27E5C4A9003A4372 /* LinkedStudy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EAF9186D27E5C4A9003A4372 /* LinkedStudy.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		EACD4CD127DCC71300D82478 /* ListNode_delete_last_n.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ListNode_delete_last_n.hpp; sourceTree = "<group>"; };
 		EAF9186927E5BB94003A4372 /* LFUCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LFUCache.cpp; sourceTree = "<group>"; };
 		EAF9186B27E5BC13003A4372 /* LRUCache.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCache.cpp; sourceTree = "<group>"; };
+		EAF9186D27E5C4A9003A4372 /* LinkedStudy.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedStudy.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				EACD4CCE27DC748000D82478 /* unordered_map_demo.hpp */,
 				EACD4CD027DCC71300D82478 /* ListNode_delete_last_n.cpp */,
 				EACD4CD127DCC71300D82478 /* ListNode_delete_last_n.hpp */,
+				EAF9186D27E5C4A9003A4372 /* LinkedStudy.cpp */,
 			);
 			path = "C++学习";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF9186E27E5C4A9003A4372 /* LinkedStudy.cpp in Sources */,
 				EAF9186C27E5BC13003A4372 /* LRUCache.cpp in Sources */,
 				EAF9186A27E5BB94003A4372 /* LFUCache.cpp in Sources */,
 				EACD4CD227DCC71300D82478 /* ListNode_delete_last_n.cpp in Sources */,
