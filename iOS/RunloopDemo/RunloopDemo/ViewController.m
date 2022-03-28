@@ -14,6 +14,7 @@
 @implementation ViewController
 
 
+__weak id reference = nil;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -23,7 +24,25 @@
 //    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
 //        NSLog(@"1234567");
 //    });
-    NSLog(@"1234567");
+//    NSLog(@"1234567");
+    
+    NSString *str = [NSString stringWithFormat:@"dajljfladjlajdlfdjflajdlafjafjlaj我哦"];
+    NSLog(@"viewDidLoad str = %@", str);
+    reference = str;
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    
+    NSLog(@"viewWillAppear str = %@", reference);
+
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    
+    NSLog(@"viewDidAppear str = %@", reference);
+
 }
 
 // 开启一个定时器
