@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+    "name": "Debug CocoaPods Plugin",
+    "showDebuggerOutput": true,
+    "type": "Ruby",
+    "request": "launch",
+    "useBundler": true,
+    "cwd": "${workspaceRoot}/Demo0309Pod", // pod 命令执行的路径
+    "program": "${workspaceRoot}/CocoaPods/bin/pod",
+    "args": ["install"], // `pod` 命令的参数
+    "env": {
+      "PATH":"/Users/libolin/.rvm/gems/ruby-2.6.6/bin:/Users/libolin/.rvm/gems/ruby-2.6.6@global/bin:/Users/libolin/.rvm/rubies/ruby-2.6.6/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/libolin/.rvm/gems/ruby-2.6.6/bin:/Users/libolin/.rvm/gems/ruby-2.6.6@global/bin:/Users/libolin/.rvm/rubies/ruby-2.6.6/bin:/Library/Frameworks/Python.framework/Versions/3.8/bin:/Users/libolin/.rvm/bin:/Users/libolin/.rvm/bin",
+      "GEM_HOME": "/Users/libolin/.rvm/gems/ruby-2.6.6", 
+      "GEM_PATH": "/Users/libolin/.rvm/gems/ruby-2.6.6:/Users/libolin/.rvm/gems/ruby-2.6.6@global", 
+      "RUBY_VERSION": "ruby-2.6.6"
+    }
+    }
+  ]
+}

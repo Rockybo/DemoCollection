@@ -1,0 +1,15 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+
+# gem "rails"
+# frozen_string_literal: true
+
+gem 'cocoapods', path: './CocoaPods'
+gem 'cocoapods-downloader', path: './cocoapods-downloader'
+gem 'cocoapods-hyoptimize', path: './cocoapods-hyoptimize'
+
+gem 'ruby-debug-ide'
+gem 'debase'

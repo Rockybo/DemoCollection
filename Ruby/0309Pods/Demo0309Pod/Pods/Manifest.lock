@@ -1,0 +1,29 @@
+PODS:
+  - boost-for-react-native (1.63.0)
+  - DoubleConversion (1.1.6)
+  - Folly (2018.10.22.00):
+    - boost-for-react-native
+    - DoubleConversion
+    - glog
+  - glog (0.3.5)
+
+DEPENDENCIES:
+  - Folly (= 2018.10.22.00)
+
+SPEC REPOS:
+  https://git.huya.com/huya-rn-public/Specs.git:
+    - DoubleConversion
+    - Folly
+    - glog
+  https://github.com/CocoaPods/Specs.git:
+    - boost-for-react-native
+
+SPEC CHECKSUMS:
+  boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
+  DoubleConversion: 2d413107089bc7eafe1d6e31c4a7401c17363e4c
+  Folly: b2b04ab113f00d63badc21886053fc5f83ad1128
+  glog: 0488f77496e2524414a395a305c7e729d6b0dfb4
+
+PODFILE CHECKSUM: 4be694d7f59324ed5f994b32721211506c7c0017
+
+COCOAPODS: 1.10.1

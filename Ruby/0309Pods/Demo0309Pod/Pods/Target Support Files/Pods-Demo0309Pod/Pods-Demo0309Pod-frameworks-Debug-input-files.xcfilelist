@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Demo0309Pod/Pods-Demo0309Pod-frameworks.sh
+${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework
+${BUILT_PRODUCTS_DIR}/Folly/folly.framework
+${BUILT_PRODUCTS_DIR}/glog/glog.framework

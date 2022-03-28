@@ -1,0 +1,76 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://git.huya.com/ci_team/Specs.git'
+source 'https://git.huya.com/huya-rn-public/Specs.git'
+
+# Uncomment the next line to define a global platform for your project
+platform :ios, '10.0'
+
+ENV['HYPOD_USE_HTTP_DOWNLOAD'] = 'true'
+
+target 'Demo0309Pod' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'Folly', '2018.10.22.00'
+  # pod 'YYWebImage', git: 'https://git.huya.com/huya-app-public/3rd-library-ios/YYWebImage.git', tag: '1.0.3-downsample-2' #'1.0.3'
+  # pod 'YYImage/WebP', git: 'https://git.huya.com/huya-app-public/3rd-library-ios/YYImage.git', tag: '1.0.1-downsample-2' #'1.0.1'
+  # pod 'MTGLDebug'
+end
+
+
+# Pods for Demo0309Pod
+  # pod 'SDWebImage'
+  # pod 'fishhook'
+
+
+  # pod 'YYImage/WebP', git: 'https://git.huya.com/huya-app-public/3rd-library-ios/YYImage.git', tag: '1.0.1-downsample-2' #'1.0.1'
+  # pod 'TYRZSDK', podspec:'https://git.huya.com/huya-app-public/3rd-library-ios/tyrzsdk/raw/9.4.0/TYRZSDK.podspec'
+
+  # # huya build
+  # pod 'HYMNN', '1.0.6' # zip
+  # pod 'dwwupkit', '1.4.100' # zip
+  # pod 'mobileapm', '2.3.307' # zip
+  # pod 'MTPUtils', '1.1.123' # source
+  # pod 'HYLiveSDK-kiwi', '1.5.4-fix10' # zip
+  # pod 'hysdk', '1.51.20-rel-patch3-2' # zip
+  # pod 'hymediatrans', '1.51.14-rel-patch3-13' # zip
+
+  #  github
+  # pod 'JRSwizzle'
+  # pod 'Aspects', '1.4.1'
+  # pod 'FLEX', '4.0.0'
+
+  # HYMNN\HYLiveSDK-kiwi\mtpencrypt
+  # pod 'AFNetworking', '3.2.1'
+
+  # pod 'MTGLDebug'
+
+  # pod 'HYMNN', '1.0.6' # zip
+  # pod 'MTPUtils', '1.1.123' # source
+  # pod 'HYLiveSDK-kiwi', '1.5.4-fix10' # zip
+
+  # pod 'matrix-wechat', '0.6.7'
+  # pod 'WBCloudReflectionFaceVerify_framework', podspec: 'https://git.huya.com/huya-app-public/wbcloudreflectionfaceverify_framework/raw/5.2.2/WBCloudReflectionFaceVerify_framework.podspec' #2021-04-25 修复启动微众后人脸开播预览卡死的问题 5.0.8
+  # pod 'MTGLDebug'
+  # pod 'hysdk'
+
+  # pod 'GDataXMLNode', git: 'https://git.huya.com/huya-app-public/3rd-library-ios/gdataxmlnode.git'
+
+    # pod 'MTGLDebug'
+    # pod 'WBCloudReflectionFaceVerify_framework'
+    # pod 'react-native-community', '0.62.2-hotfix.4'
+
+
+  # pod 'react-native-community', '0.62.2-hotfix.4'
+  # pod 'lottie-ios', podspec: 'https://git.huya.com/huya-app-public/lottie-ios/raw/feature_merge_path/lottie-ios.podspec'
+  # pod 'OfflineResourceManager', '0.0.19'
+
+
+  # pod 'lottie-react-native' # 因为tag和s.version 不一致，然后tag打的都是v开头的
+
+  # pod 'MTGLDebug'
+  # pod 'WBCloudReflectionFaceVerify_framework'
+  # pod 'WBCloudReflectionFaceVerify_framework'
+
+  # pod 'matrix-wechat', '0.6.7'
+  # pod 'OfflineResourceManager', '0.0.19'
